@@ -17,8 +17,8 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--dark-cyan);
     background-image: 
-    url(images/bg-pattern-top.svg),
-    url(images/bg-pattern-bottom.svg);
+    url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat no-repeat;
     background-position: -10% 2500%, 110% -2000%;
     display: flex;
