@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/patrickhsa/Profile-card-component
+- Live Site URL: https://patrickhsa.github.io/Profile-card-component/
 
 ## My process
 
