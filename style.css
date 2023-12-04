@@ -1,0 +1,127 @@
+:root {
+    /*Primary Colors*/
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-saturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /*Neutral Colors*/
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--dark-cyan);
+    background-image: 
+    url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat no-repeat;
+    background-position: -10% 2500%, 110% -2000%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*Alinha verticalmente*/
+    align-items: center; /*Alinha horizontalmente*/
+    height: 100vh;
+}
+
+main {
+    margin-top: 15em;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.images {
+    position: relative;
+}
+
+.img-card {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.img-victor {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    border: 6px solid #FFFFFF;
+}
+
+.name_age {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px; 
+}
+
+h1 {
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 70%;
+    margin-top: 10px;
+}
+
+hr {
+    opacity: 30%;
+    margin: 20px 0;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    text-align: center;
+}
+
+.numbers p {
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 60%;
+    letter-spacing: 2px;
+    margin-top: 5px;    
+}
+
+footer {
+    font-size: 14px;    
+}
+
+@media screen and (max-width: 360px) {
+
+    main {
+        width: 280px;
+    }
+
+    .img-card {
+        width: 280px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+}
